@@ -1,21 +1,12 @@
 {
   "name": "betbuddy",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "fetchMatches.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "node fetchMatches.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.1",
     "axios": "^1.15.2",
-    "expo": "~54.0.33",
-    "expo-status-bar": "~3.0.9",
-    "expo-updates": "~29.0.16",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
   },
-  "private": true
 }
