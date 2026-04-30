@@ -4,7 +4,7 @@
   "main": "fetchMatches.js",
   "scripts": {
     "start": "node fetchMatches.js"
-  }
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.1",
     "axios": "^1.15.2"
